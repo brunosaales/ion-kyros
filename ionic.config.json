@@ -1,0 +1,8 @@
+{
+  "name": "ion-kyros",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
