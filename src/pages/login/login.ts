@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { UserServiceProvider } from '../../providers/user-service/user-service';
 
+import { PasswordPage } from '../password/password';
+
 
 @IonicPage()
 @Component({
@@ -34,16 +36,19 @@ export class LoginPage {
     //   }
     // ];
 
-    login() {
-      // debugger;
-      this.userServiceProvider.login()
-      .then(data => {
-        this.user = data;
-      });
+    // login() {
+    //   this.userServiceProvider.login()
+    //   .then(data => {
+    //     this.user = data;
+    //   });
+    // }
+
+    password() {
+      this.navCtrl.push(PasswordPage);
     }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad LoginPage');
-  }
+    ionViewDidLoad() {
+      console.log('ionViewDidLoad LoginPage');
+    }
 
 }

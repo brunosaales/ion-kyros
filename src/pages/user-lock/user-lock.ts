@@ -1,6 +1,10 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
+import { UserUnlockPage } from '../user-unlock/user-unlock';
+import { LoginPage } from '../login/login';
+
+
 /**
  * Generated class for the UserLockPage page.
  *
@@ -17,6 +21,16 @@ export class UserLockPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
+
+
+  unlock() {
+    this.navCtrl.push(UserUnlockPage);
+  }
+
+  login() {
+    this.navCtrl.push(LoginPage);
+  }
+
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad UserLockPage');

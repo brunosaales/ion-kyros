@@ -8,6 +8,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { ConfirmInfoPage } from '../pages/confirm-info/confirm-info';
 import { LoginPage } from '../pages/login/login';
+import { PasswordPage } from '../pages/password/password';
 import { RequestLoginPage } from '../pages/request-login/request-login';
 import { RequestLoginSuccessPage } from '../pages/request-login-success/request-login-success';
 import { RequestLoginKeyPage } from '../pages/request-login-key/request-login-key';
@@ -34,6 +35,7 @@ export class MyApp {
       // { title: 'List', component: ListPage },
       { title: 'Confirme os dados', component: ConfirmInfoPage },
       { title: 'Login', component: LoginPage },
+      { title: 'Password', component: PasswordPage },
       { title: 'Recuperar login', component: RequestLoginPage },
       { title: 'Recuperação de login - sucesso', component: RequestLoginSuccessPage },
       { title: 'Recuperação de login - chave', component: RequestLoginKeyPage },

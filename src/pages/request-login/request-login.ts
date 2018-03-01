@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
+import { RequestLoginSuccessPage } from '../request-login-success/request-login-success';
+
+
 /**
  * Generated class for the RequestLoginPage page.
  *
@@ -16,6 +19,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class RequestLoginPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+  }
+
+  requestLoginSuccess() {
+    this.navCtrl.push(RequestLoginSuccessPage);
   }
 
   ionViewDidLoad() {

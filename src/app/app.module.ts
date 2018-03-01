@@ -11,6 +11,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { ConfirmInfoPage } from '../pages/confirm-info/confirm-info';
 import { LoginPage } from '../pages/login/login';
+import { PasswordPage } from '../pages/password/password';
 import { RequestLoginPage } from '../pages/request-login/request-login';
 import { RequestLoginSuccessPage } from '../pages/request-login-success/request-login-success';
 import { RequestLoginKeyPage } from '../pages/request-login-key/request-login-key';
@@ -30,6 +31,7 @@ import { HttpClientModule } from '@angular/common/http';
     ListPage,
     ConfirmInfoPage,
     LoginPage,
+    PasswordPage,
     RequestLoginPage,
     RequestLoginSuccessPage,
     RequestLoginKeyPage,
@@ -49,6 +51,7 @@ import { HttpClientModule } from '@angular/common/http';
     ListPage,
     ConfirmInfoPage,
     LoginPage,
+    PasswordPage,
     RequestLoginPage,
     RequestLoginSuccessPage,
     RequestLoginKeyPage,
